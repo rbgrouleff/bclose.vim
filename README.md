@@ -5,3 +5,9 @@ I found it on http://vim.wikia.com/wiki/Deleting_a_buffer_without_closing_the_wi
 It is for deleting a buffer in Vim without closing the window.
 
 The reason for adding it here is to be able to add it to an existing Janus bundle (look at https://github.com/carlhuda/janus for instructions on how to do that).
+
+
+For a custom bind, add this line to your Vim config file:
+````
+nnoremap <silent> <Leader>bd :Bclose<CR>
+````
