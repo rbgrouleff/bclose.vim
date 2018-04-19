@@ -9,3 +9,9 @@ The reason for adding it here is to be able to add it to an existing Janus bundl
 ## Bindings
 
 BClose binds `<Leader>bd` to `:Bclose` unless `g:no_plugin_maps` exists and is `true`.
+
+## Contributing
+
+Contributions are more than welcome.
+
+Just fork the repo and send a pull request ✌️
