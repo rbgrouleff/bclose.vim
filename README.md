@@ -6,8 +6,6 @@ It is for deleting a buffer in Vim without closing the window.
 
 The reason for adding it here is to be able to add it to an existing Janus bundle (look at https://github.com/carlhuda/janus for instructions on how to do that).
 
+## Bindings
 
-For a custom bind, add this line to your Vim config file:
-````
-nnoremap <silent> <Leader>bd :Bclose<CR>
-````
+BClose binds `<Leader>bd` to `:Bclose` unless `g:no_plugin_maps` exists and is `true`.
