@@ -70,6 +70,6 @@ function! s:Bclose(bang, buffer)
   execute wcurrent.'wincmd w'
 endfunction
 command! -bang -complete=buffer -nargs=? Bclose call <SID>Bclose('<bang>', '<args>')
-if !exists ("g:no_plugin_maps") || !g:no_plugin_maps
+if !exists ("g:bclose_no_plugin_maps") || !g:bclose_no_plugin_maps
   nnoremap <silent> <Leader>bd :Bclose<CR>
 endif
